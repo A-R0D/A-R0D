@@ -1,70 +1,84 @@
 ---
 layout: default
-title: Adrian Rodriguez - Cybersecurity Specialist
+title: Adrian Rodriguez - Cybersecurity Enthusiast
 ---
 
-# Adrian Rodriguez - Aspiring Cybersecurity Professional
+<style>
+    body {
+        background-color: #1e1e1e; /* Dark background */
+        color: #f0f0f0; /* Light text color */
+        font-family: 'Courier New', Courier, monospace; /* Monospace font for hacker aesthetic */
+    }
+    h1, h2, h3 {
+        color: #00ff00; /* Green color for headers */
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .profile, .code-block {
+        width: 30%;
+        background-color: #272822; /* Darker section background */
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Green glow effect */
+    }
+    pre {
+        background-color: #1e1e1e; /* Code background */
+        border-radius: 5px;
+        padding: 10px;
+        overflow: auto; /* Enables scrolling for long code */
+    }
+    img {
+        width: 100%; /* Adjusts image size to fit the section */
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Green glow effect */
+    }
+</style>
 
-Welcome to my GitHub Page! I am passionate about Cybersecurity and Information Assurance. Explore my projects, certifications, and resources below.
+<div class="container">
+    <div class="profile">
+        <h1>Welcome to My GitHub Page</h1>
+        <img src="./assets/AdrianCPIC.png" alt="Profile Picture" />
+        <p>I am currently pursuing a Bachelor's in Cybersecurity and Information Assurance at WGU.</p>
+        <p>Feel free to browse through my projects and skills. You can connect with me via 
+            <a href="https://www.linkedin.com/in/your-profile" style="color: #00ff00;">LinkedIn</a> or 
+            <a href="mailto:your-email" style="color: #00ff00;">Email</a>.
+        </p>
+    </div>
+
+    <div class="code-block">
+        <h2>JavaScript Example</h2>
+        <pre>
+<code>
+function greet() {
+    console.log("Welcome to my GitHub Page!");
+}
+        </code>
+        </pre>
+    </div>
+
+    <div class="code-block">
+        <h2>Python Example</h2>
+        <pre>
+<code>
+def hello():
+    print("Hello, World!")
+        </code>
+        </pre>
+    </div>
+</div>
 
 ---
 
-## About Me
-I’m currently pursuing my Bachelor's in Cybersecurity and Information Assurance at Western Governors University; I am eager to learn and grow in this industry.  
-<img src="./assets/AdrianCPIC.png" alt="Profile Picture" width="200"/> <!-- Replace with your actual image file path -->
+## Projects
+### Network Monitoring
+[Project Link](https://github.com/your-username/project)
 
----
+### Digital Forensics
+[Project Link](https://github.com/your-username/project)
 
-## Featured Projects
-
-### Network Security Monitoring
-In this project, I used Wireshark to monitor and analyze network traffic to detect potential threats and malicious activities.
-
-[View Project](https://github.com/your-username/network-monitoring) <!-- Replace with actual URL -->
-
-### Forensics Investigation
-I used FTK and Autopsy to investigate and collect digital evidence for a company policy violation case. This project showcases my ability to gather and preserve digital evidence.
-
-[View Project](https://github.com/your-username/forensics-investigation) <!-- Replace with actual URL -->
-
----
-
-## Certifications
-
-- **CompTIA A+**
-- **CompTIA Network+**
-- **CompTIA Security+**
-
----
-
-## Skills & Tools
-
-| Skill           | Level        | Experience |
-|-----------------|--------------|------------|
-| Network Security | Advanced     | 3 years    |
-| Digital Forensics| Intermediate | 2 years    |
-| Wireshark        | Beginner     | 1 year     |
-| FTK              | Intermediate | 1 year     |
-| Autopsy          | Intermediate | 1 year     |
-
----
-
-## Sample Code
-
-Here’s a sample of a Python script I wrote for basic network scanning:
-
-```python
-import socket
-
-def scan(host):
-    for port in range(1, 1024):
-        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        result = sock.connect_ex((host, port))
-        if result == 0:
-            print(f"Port {port}: Open")
-        sock.close()
-
-scan('192.168.1.1')
 
 ```
 The final element.
