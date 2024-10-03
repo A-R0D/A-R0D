@@ -1,36 +1,58 @@
+/* Global styles */
 body {
     background-color: #1e1e1e; /* Dark background */
     color: #f0f0f0; /* Light text color */
     font-family: 'Courier New', Courier, monospace; /* Monospace font for hacker aesthetic */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 h1, h2, h3 {
     color: #00ff00; /* Green color for headers */
+    text-shadow: 0 0 5px rgba(0, 255, 0, 0.7); /* Glow effect for headers */
 }
 
+/* Container styles */
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: flex-start;
     padding: 20px;
 }
 
+/* Profile and Code Block Styles */
 .profile, .code-block {
-    width: 30%;
+    width: 45%; /* Adjust the width for side content */
     background-color: #272822; /* Darker section background */
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Green glow effect */
+    margin: 10px; /* Space between boxes */
 }
 
+/* Code Block Styles */
 pre {
     background-color: #1e1e1e; /* Code background */
     border-radius: 5px;
     padding: 10px;
     overflow: auto; /* Enables scrolling for long code */
+    color: #00ff00; /* Green text for code */
 }
 
+/* Image Styles */
 img {
     width: 100%; /* Adjusts image size to fit the section */
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Green glow effect */
+}
+
+/* Links */
+a {
+    color: #00ff00; /* Green color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
 }
