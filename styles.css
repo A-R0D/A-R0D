@@ -1,0 +1,36 @@
+body {
+    background-color: #1e1e1e; /* Dark background */
+    color: #f0f0f0; /* Light text color */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for hacker aesthetic */
+}
+
+h1, h2, h3 {
+    color: #00ff00; /* Green color for headers */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.profile, .code-block {
+    width: 30%;
+    background-color: #272822; /* Darker section background */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Green glow effect */
+}
+
+pre {
+    background-color: #1e1e1e; /* Code background */
+    border-radius: 5px;
+    padding: 10px;
+    overflow: auto; /* Enables scrolling for long code */
+}
+
+img {
+    width: 100%; /* Adjusts image size to fit the section */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Green glow effect */
+}
