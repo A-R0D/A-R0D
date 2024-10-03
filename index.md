@@ -3,16 +3,15 @@ layout: default
 title: Adrian Rodriguez - Cybersecurity Specialist
 ---
 
-# Adrian Rodriguez - Cybersecurity Specialist
+# Adrian Rodriguez - Aspiring Cybersecurity Professional
 
 Welcome to my GitHub Page! I am passionate about Cybersecurity and Information Assurance. Explore my projects, certifications, and resources below.
 
 ---
 
 ## About Me
-I’m currently pursuing my Bachelor's in Cybersecurity and Information Assurance at Western Governors University, where I focus on network security and digital forensics. I'm passionate about helping organizations safeguard their information and improve their security posture.
-
-![Profile Picture](./assets/profile-picture.jpg) <!-- Replace with your actual image file path -->
+I’m currently pursuing my Bachelor's in Cybersecurity and Information Assurance at Western Governors University; I am eager to learn and grow in this industry.  
+![Profile Picture]("C:\Users\Adria\Downloads\AdrianCPIC.png") <!-- Replace with your actual image file path -->
 
 ---
 
