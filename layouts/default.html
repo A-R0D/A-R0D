@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            background-color: #1e1e1e; /* Dark background */
+            color: #f0f0f0; /* Light text color */
+            font-family: 'Courier New', Courier, monospace; /* Monospace font for hacker aesthetic */
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3 {
+            color: #00ff00; /* Green color for headers */
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 20px;
+        }
+
+        .profile, .code-block {
+            width: 45%; /* Adjust the width for side content */
+            background-color: #272822; /* Darker section background */
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Green glow effect */
+            margin: 10px; /* Space between boxes */
+        }
+
+        pre {
+            background-color: #1e1e1e; /* Code background */
+            border-radius: 5px;
+            padding: 10px;
+            overflow: auto; /* Enables scrolling for long code */
+        }
+
+        img {
+            width: 100%; /* Adjusts image size to fit the section */
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Green glow effect */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            {{ content }}
+        </div>
+        <div class="code-block">
+            <h2>Featured Code Snippet</h2>
+            <pre>
+            # Your code snippet goes here
+            </pre>
+        </div>
+    </div>
+</body>
+</html>
