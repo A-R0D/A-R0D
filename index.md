@@ -1,5 +1,6 @@
+---
 layout: default
-title: Adrian Rodriguez - Cybersecurity 
+title: Adrian Rodriguez - Aspiring Cybersecurity Professional
 ---
 
 # Adrian Rodriguez - Aspiring Cybersecurity Professional
@@ -7,7 +8,7 @@ title: Adrian Rodriguez - Cybersecurity
 Welcome to my GitHub Page! I am passionate about Cybersecurity and Information Assurance. Explore my projects, certifications, and resources below.
 
 ## About Me
-I’m currently pursuing my Bachelor's in Cybersecurity and Information Assurance at Western Governors University, I am eager to learn and grow in this industry. 
+I’m currently pursuing my Bachelor's in Cybersecurity and Information Assurance at Western Governors University. I am eager to learn and grow in this industry.
 
 <img src="./assets/AdrianCPIC.png" alt="Profile Picture" width="200"/>
 
@@ -46,7 +47,7 @@ Leveraged FTK and Autopsy to conduct a thorough digital forensic investigation i
 
 ## Featured Code Snippet
 
-python
+```python
 # Python script for basic network scanning
 import socket
 
@@ -59,6 +60,7 @@ def scan(host):
         sock.close()
 
 scan('192.168.1.1')
+
 
 ```
 The final element.
