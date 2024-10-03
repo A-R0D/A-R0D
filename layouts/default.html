@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
     <style>
         body {
             background-color: #1e1e1e; /* Dark background */
@@ -17,11 +18,12 @@
 
         h1, h2, h3 {
             color: #00ff00; /* Green color for headers */
+            text-shadow: 0 0 10px rgba(0, 255, 0, 0.8); /* Glow effect for headers */
         }
 
         .container {
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: flex-start;
             padding: 20px;
         }
@@ -31,7 +33,7 @@
             background-color: #272822; /* Darker section background */
             padding: 15px;
             border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Green glow effect */
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.5); /* Green glow effect */
             margin: 10px; /* Space between boxes */
         }
 
@@ -45,7 +47,7 @@
         img {
             width: 100%; /* Adjusts image size to fit the section */
             border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Green glow effect */
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.5); /* Green glow effect */
         }
     </style>
 </head>
@@ -57,9 +59,12 @@
         <div class="code-block">
             <h2>Featured Code Snippet</h2>
             <pre>
-            # Your code snippet goes here
+# Your code snippet goes here
             </pre>
         </div>
     </div>
+</body>
+</html>
+
 </body>
 </html>
