@@ -1,7 +1,7 @@
 title: Adrian Rodriguez - Aspiring Cybersecurity Professional
 description: Welcome to my GitHub Page! I am passionate about Cybersecurity and Information Assurance. Explore my projects, certifications, and resources below.
-baseurl: /a-r0d.github.io  # Make sure this is your repository name
-url: https://a-r0d.github.io  # Your GitHub username
+baseurl: /your-repo  # Your repository name
+url: https://yourusername.github.io  # Your GitHub username
 
 theme: hacked-jekyll
 
@@ -16,12 +16,3 @@ plugins:
 
 sass:
   sourcemap: never
-color_bg: gray-9
-color_punct: green-9
-color_key: green-4
-color_value: green-4
-color_hover: green-5
-quotes: true
-commas: true
-lowercase: false
-newtab: false
