@@ -1,3 +1,4 @@
+```css
 /* Global styles */
 body {
     background-color: #1e1e1e; /* Dark background */
@@ -11,6 +12,21 @@ body {
 h1, h2, h3 {
     color: #00ff00; /* Green color for headers */
     text-shadow: 0 0 5px rgba(0, 255, 0, 0.7); /* Glow effect for headers */
+}
+
+/* Navigation styles */
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    color: #00ff00; /* Green color for links */
+    text-decoration: none; /* Remove underline */
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline on hover */
 }
 
 /* Container styles */
@@ -45,14 +61,4 @@ img {
     width: 100%; /* Adjusts image size to fit the section */
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Green glow effect */
-}
-
-/* Links */
-a {
-    color: #00ff00; /* Green color for links */
-    text-decoration: none; /* Remove underline from links */
-}
-
-a:hover {
-    text-decoration: underline; /* Underline on hover */
 }
