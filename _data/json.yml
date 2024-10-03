@@ -1,0 +1,10 @@
+- key: Name
+  value: Adrian Rodriguez
+- key: Projects
+  value:
+    - value: Network Security Monitoring
+      url: https://github.com/yourusername/network-security-monitoring
+    - value: Forensics Investigation
+      url: https://github.com/yourusername/forensics-investigation
+- key: Certifications
+  value: CompTIA A+, CompTIA Network+, CompTIA Security+
