@@ -1,7 +1,7 @@
 title: Adrian Rodriguez - Aspiring Cybersecurity Professional
 description: Welcome to my GitHub Page! I am passionate about Cybersecurity and Information Assurance. Explore my projects, certifications, and resources below.
-baseurl: /hacked-jekyll
-url: https://piazzai.github.io
+baseurl: /a-r0d.github.io  # Make sure this is your repository name
+url: https://a-r0d.github.io  # Your GitHub username
 
 theme: hacked-jekyll
 
