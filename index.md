@@ -1,122 +1,71 @@
 ---
 layout: default
+title: Adrian Rodriguez - Cybersecurity Specialist
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+# Adrian Rodriguez - Cybersecurity Specialist
 
-[Link to another page](./another-page.html).
+Welcome to my GitHub Page! I am passionate about Cybersecurity and Information Assurance. Explore my projects, certifications, and resources below.
 
-There should be whitespace between paragraphs.
+---
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+## About Me
+I’m currently pursuing my Bachelor's in Cybersecurity and Information Assurance at Western Governors University, where I focus on network security and digital forensics. I'm passionate about helping organizations safeguard their information and improve their security posture.
 
-# Header 1
+![Profile Picture](./assets/profile-picture.jpg) <!-- Replace with your actual image file path -->
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+---
 
-## Header 2
+## Featured Projects
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+### Network Security Monitoring
+In this project, I used Wireshark to monitor and analyze network traffic to detect potential threats and malicious activities.
 
-### Header 3
+[View Project](https://github.com/your-username/network-monitoring) <!-- Replace with actual URL -->
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+### Forensics Investigation
+I used FTK and Autopsy to investigate and collect digital evidence for a company policy violation case. This project showcases my ability to gather and preserve digital evidence.
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+[View Project](https://github.com/your-username/forensics-investigation) <!-- Replace with actual URL -->
 
-#### Header 4
+---
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+## Certifications
 
-##### Header 5
+- **CompTIA A+**
+- **CompTIA Network+**
+- **CompTIA Security+**
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+---
 
-###### Header 6
+## Skills & Tools
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+| Skill           | Level        | Experience |
+|-----------------|--------------|------------|
+| Network Security | Advanced     | 3 years    |
+| Digital Forensics| Intermediate | 2 years    |
+| Wireshark        | Beginner     | 1 year     |
+| FTK              | Intermediate | 1 year     |
+| Autopsy          | Intermediate | 1 year     |
 
-### There's a horizontal rule below this.
+---
 
-* * *
+## Sample Code
 
-### Here is an unordered list:
+Here’s a sample of a Python script I wrote for basic network scanning:
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+```python
+import socket
 
-### And an ordered list:
+def scan(host):
+    for port in range(1, 1024):
+        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        result = sock.connect_ex((host, port))
+        if result == 0:
+            print(f"Port {port}: Open")
+        sock.close()
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+scan('192.168.1.1')
 
 ```
 The final element.
