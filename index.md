@@ -8,8 +8,7 @@ title: Adrian Rodriguez - Aspiring Cybersecurity Professional
 Welcome to my GitHub Page! I am passionate about Cybersecurity and Information Technology. Explore my projects, certifications, and resources below.
 
 ## About Me
-I’m currently pursuing my Bachelor's in Cybersecurity and Information Assurance at Western Governors University. I enjoy learning and sharing knowledge about all things security-related. 
-
+I am currently pursuing my Bachelor's in Cybersecurity and Information Assurance at Western Governors University. In addition to my studies, I work as a Peer Coach, helping students prepare for and pass the CompTIA A+ exam. I'm passionate about growing and learning in the cybersecurity field and excited to continue building on my foundational skill set as I advance in this industry
 <img src="./assets/AdrianCPIC.png" alt="Profile Picture" width="200"/>
 
 ---
