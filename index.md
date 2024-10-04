@@ -5,7 +5,7 @@ title: Adrian Rodriguez - Aspiring Cybersecurity Professional
 
 # Adrian Rodriguez - Aspiring Cybersecurity Professional
 
-Welcome to my GitHub Page! I am passionate about cybersecurity and information assurance. Explore my projects, certifications, and resources below.
+Welcome to my GitHub Page! I am passionate about Cybersecurity and Information Technology. Explore my projects, certifications, and resources below.
 
 ## About Me
 I’m currently pursuing my Bachelor's in Cybersecurity and Information Assurance at Western Governors University. I enjoy learning and sharing knowledge about all things security-related. 
@@ -33,16 +33,17 @@ Utilized FTK and Autopsy to investigate a policy violation.
 - **CompTIA A+** - January 2024
 - **CompTIA Network+** - April 2024
 - **CompTIA Security+** - July 2024
+- **ITIL** - September 2024
 
 ---
 
 ## Skills & Tools
 
-| Skill           | Level        | Experience |
-|-----------------|--------------|------------|
-| Network Security | Advanced     | 3 years    |
-| Digital Forensics| Intermediate | 2 years    |
-| Wireshark        | Beginner     | 1 year     |
+| Skill           | Level        | 
+|-----------------|--------------|
+| Linux/Mac/Windows | Advanced     | 
+| Microsoft 365 Suite/Teams | Advanced  |
+| Webex       | Advanced      | 
 
 ---
 
