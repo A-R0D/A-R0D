@@ -13,6 +13,8 @@ I am currently pursuing my Bachelor's in Cybersecurity and Information Assurance
 <img src="./assets/AdrianCPIC.png" alt="Profile Picture" width="200"/>
 
 ---
+## Projects
+
 
 ### SIEM Project on Microsoft Azure
 
