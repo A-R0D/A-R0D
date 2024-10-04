@@ -1,122 +1,67 @@
 ---
 layout: default
+title: Adrian Rodriguez - Aspiring Cybersecurity Professional
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+# Adrian Rodriguez - Aspiring Cybersecurity Professional
 
-[Link to another page](./another-page.html).
+Welcome to my GitHub Page! I am passionate about cybersecurity and information assurance. Explore my projects, certifications, and resources below.
 
-There should be whitespace between paragraphs.
+## About Me
+I’m currently pursuing my Bachelor's in Cybersecurity and Information Assurance at Western Governors University. I enjoy learning and sharing knowledge about all things security-related. 
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+![Profile Picture](./assets/AdrianCPIC.png)
 
-# Header 1
+---
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+## Projects
 
-## Header 2
+### Network Security Monitoring
+Used Wireshark to analyze network traffic for malicious activities.
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+[View Project](https://github.com/your-username/network-monitoring)
 
-### Header 3
+### Forensics Investigation
+Utilized FTK and Autopsy to investigate a policy violation.
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+[View Project](https://github.com/your-username/forensics-investigation)
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+---
 
-#### Header 4
+## Certifications
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+- **CompTIA A+** - January 2024
+- **CompTIA Network+** - April 2024
+- **CompTIA Security+** - July 2024
 
-##### Header 5
+---
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+## Skills & Tools
 
-###### Header 6
+| Skill           | Level        | Experience |
+|-----------------|--------------|------------|
+| Network Security | Advanced     | 3 years    |
+| Digital Forensics| Intermediate | 2 years    |
+| Wireshark        | Beginner     | 1 year     |
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+---
 
-### There's a horizontal rule below this.
+## Featured Code Snippet
 
-* * *
+```python
+# Python script for basic network scanning
+import socket
 
-### Here is an unordered list:
+def scan(host):
+    for port in range(1, 1024):
+        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        result = sock.connect_ex((host, port))
+        if result == 0:
+            print(f"Port {port}: Open")
+        sock.close()
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+scan('192.168.1.1')
 
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
 
 ```
 The final element.
