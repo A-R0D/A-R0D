@@ -1,5 +1,6 @@
-title: Adrian Rodriguez Cybersecurity Portfolio 
-description: Hacker is a theme for GitHub Pages.
+title: Adrian Rodriguez - Cybersecurity Projects and Portfolio
+description: A showcase of my projects, skills, and certifications in Cybersecurity.
 show_downloads: true
-google_analytics:
+google_analytics: # Add your Google Analytics tracking ID if you have one
 theme: jekyll-theme-hacker
+
