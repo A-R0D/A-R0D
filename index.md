@@ -60,21 +60,7 @@ A Python project that generates random workouts to help you mix up your exercise
 
 ---
 
-## Featured Code Snippet
 
-```python
-# Python script for basic network scanning
-import socket
-
-def scan(host):
-    for port in range(1, 1024):
-        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        result = sock.connect_ex((host, port))
-        if result == 0:
-            print(f"Port {port}: Open")
-        sock.close()
-
-scan('192.168.1.1')
 
 
 ```
