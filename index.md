@@ -34,6 +34,14 @@ I created a Security Information and Event Management (SIEM) system using Micros
 I used Microsoft Sentinel to track event logs and detect successful RDP sign-ins by creating a custom detection string. Below is an example of the detection rule used:
 [View Project](https://github.com/your-username/network-monitoring)
 
+![Step 1](./assets/Step1.png)
+
+![Step 2](./assets/Step2.png)
+
+![Step 3](./assets/Step3.png)
+
+![Step 4](./assets/Step4.png)
+
 ### Random Workout Generator
 A Python project that generates random workouts to help you mix up your exercise routine. I developed this as part of my final for my Introduction to Python course.
 
