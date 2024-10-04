@@ -9,6 +9,7 @@ Welcome to my GitHub Page! I am passionate about Cybersecurity and Information T
 
 ## About Me
 I am currently pursuing my Bachelor's in Cybersecurity and Information Assurance at Western Governors University. In addition to my studies, I work as a Peer Coach, helping students prepare for and pass the CompTIA A+ exam. I'm passionate about growing and learning in the cybersecurity field and excited to continue building on my foundational skill set as I advance in this industry
+
 <img src="./assets/AdrianCPIC.png" alt="Profile Picture" width="200"/>
 
 ---
