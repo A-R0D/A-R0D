@@ -21,10 +21,10 @@ Used Wireshark to analyze network traffic for malicious activities.
 
 [View Project](https://github.com/your-username/network-monitoring)
 
-### Forensics Investigation
-Utilized FTK and Autopsy to investigate a policy violation.
+### Random Workout Generator
+A Python project that generates random workouts to help you mix up your exercise routine. I developed this as part of my final for my Introduction to Python course.
 
-[View Project](https://github.com/your-username/forensics-investigation)
+[View Project](https://github.com/A-r0d/random-workout-generator)
 
 ---
 
