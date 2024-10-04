@@ -14,22 +14,21 @@ I am currently pursuing my Bachelor's in Cybersecurity and Information Assurance
 
 ---
 
-## Projects
-
 ### SIEM Project on Microsoft Azure
-I created a Security Information and Event Management (SIEM) system using Microsoft Azure. The project involved setting up a Virtual Machine (VM) with an open RDP port and using Microsoft Sentinel to monitor and detect successful RDP sign-ins. The setup allows for the continuous management of events to identify potential security risks related to Remote Desktop Protocol.
 
-### Tools Used
+I created a Security Information and Event Management (SIEM) system using Microsoft Azure. The project involved setting up a Virtual Machine (VM) with an open RDP port and using **Microsoft Sentinel** to monitor and detect successful RDP sign-ins. This setup allows for the continuous management of events to identify potential security risks related to Remote Desktop Protocol.
+
+**Tools Used**:
 - **Microsoft Azure** (for deploying the VM)
 - **Microsoft Sentinel** (for event monitoring and detection)
 - **Virtual Machine** (configured with an open RDP port)
 
-### Key Features
+**Key Features**:
 - Monitors and logs successful RDP sign-ins.
 - Custom detection rules in Microsoft Sentinel to manage events.
 - Automated alerts for suspicious login attempts via RDP.
 
-### How It Works
+**How It Works**:
 I used Microsoft Sentinel to track event logs and detect successful RDP sign-ins by creating a custom detection string. Below is an example of the detection rule used:
 [View Project](https://github.com/your-username/network-monitoring)
 
