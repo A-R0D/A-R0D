@@ -11,7 +11,8 @@ Welcome to my GitHub Page! I am passionate about Cybersecurity and Information A
 I’m currently pursuing my Bachelor's in Cybersecurity and Information Assurance at Western Governors University. I am eager to learn and grow in this industry.
 
 <div class="profile-picture">
-  <img src="./assets/AdrianCPIC.png" alt="Profile Picture" class="profile-img"/>
+ <img src="./assets/AdrianCPIC.png" alt="Profile Picture" style="width:150px; height:auto; border-radius: 50%; display: block; margin-left: auto; margin-right: auto;" />
+
 </div>
 
 ---
