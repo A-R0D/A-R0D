@@ -10,7 +10,9 @@ Welcome to my GitHub Page! I am passionate about Cybersecurity and Information A
 ## About Me
 I’m currently pursuing my Bachelor's in Cybersecurity and Information Assurance at Western Governors University. I am eager to learn and grow in this industry.
 
-<img src="./assets/AdrianCPIC.png" alt="Profile Picture" width="200"/>
+<div class="profile-picture">
+  <img src="./assets/AdrianCPIC.png" alt="Profile Picture" class="profile-img"/>
+</div>
 
 ---
 
@@ -60,8 +62,6 @@ def scan(host):
         sock.close()
 
 scan('192.168.1.1')
-
-
 
 ```
 The final element.
