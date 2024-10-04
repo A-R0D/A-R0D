@@ -8,25 +8,20 @@ title: Adrian Rodriguez - Aspiring Cybersecurity Professional
 Welcome to my GitHub Page! I am passionate about Cybersecurity and Information Assurance. Explore my projects, certifications, and resources below.
 
 ## About Me
-I’m currently pursuing my Bachelor's in Cybersecurity and Information Assurance at Western Governors University. I am eager to learn and grow in this industry.
+I’m currently pursuing my Bachelor’s in Cybersecurity and Information Assurance at Western Governors University. I am eager to learn and grow in this industry.
 
-<div class="profile-picture">
- <img src="./assets/AdrianCPIC.png" alt="Profile Picture" style="width:150px; height:auto; border-radius: 50%; display: block; margin-left: auto; margin-right: auto;" />
-
-</div>
+<img src="./assets/AdrianCPIC.png" alt="Profile Picture" style="width:150px; height:auto; border-radius: 50%; display: block; margin-left: auto; margin-right: auto;" />
 
 ---
 
 ## Projects
 
 ### Network Security Monitoring
-A project where I used Wireshark to analyze network traffic for malicious activities.
-
+A project where I used Wireshark to analyze network traffic for malicious activities.  
 [View Project](https://github.com/your-username/network-monitoring)
 
 ### Forensics Investigation
-Leveraged FTK and Autopsy to conduct a thorough digital forensic investigation into a policy violation.
-
+Leveraged FTK and Autopsy to conduct a thorough digital forensic investigation into a policy violation.  
 [View Project](https://github.com/your-username/forensics-investigation)
 
 ---
@@ -63,6 +58,7 @@ def scan(host):
         sock.close()
 
 scan('192.168.1.1')
+
 
 ```
 The final element.
