@@ -43,7 +43,7 @@ Utilized FTK and Autopsy to investigate a policy violation.
 |-----------------|--------------|
 | Linux/Mac/Windows | Advanced     | 
 | Microsoft 365 Suite/Teams | Advanced  |
-| Webex       | Advanced      | 
+| Cisco Webex       | Advanced      | 
 
 ---
 
