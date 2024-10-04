@@ -10,7 +10,7 @@ Welcome to my GitHub Page! I am passionate about cybersecurity and information a
 ## About Me
 I’m currently pursuing my Bachelor's in Cybersecurity and Information Assurance at Western Governors University. I enjoy learning and sharing knowledge about all things security-related. 
 
-![Profile Picture](./assets/AdrianCPIC.png)
+<img src="./assets/AdrianCPIC.png" alt="Profile Picture" width="200"/>
 
 ---
 
