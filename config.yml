@@ -1,0 +1,19 @@
+title: "Adrian's Hacked Jekyll Site"
+description: "A microtheme that looks like JSON."
+baseurl: "/"
+url: "https://your-username.github.io"
+theme: hacked-jekyll
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - demo/
+
+sass:
+  sourcemap: never
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
