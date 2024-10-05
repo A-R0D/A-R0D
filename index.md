@@ -84,9 +84,6 @@ A Python project that generates random workouts to help you mix up your exercise
 
 ---
 
-
-
-
 ```
 The final element.
 ```
