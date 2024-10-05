@@ -12,7 +12,7 @@ I am currently pursuing my Bachelor's in Cybersecurity and Information Assurance
 
 <img src="./assets/AdrianCPIC.png" alt="Profile Picture" width="200"/>
 
- ## <span style="font-size: 1em;">Certifications
+## <span style="font-size: 1em;">Certifications
 
 - **CompTIA A+** - January 2024
 - **CompTIA Network+** - April 2024
