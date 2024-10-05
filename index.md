@@ -55,6 +55,14 @@ A Python project that generates random workouts to help you mix up your exercise
 
 [View Project](https://github.com/A-r0d/random-workout-generator)
 
+ Program Interface: 
+ 
+![Program Interface](./assets/WorkoutGen.png)
+
+ Sample Workout Output: 
+ 
+![Sample Workout Output](./assets/WorkoutGen1.png)
+
 ---
 
 ## Certifications
