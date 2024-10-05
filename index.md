@@ -12,11 +12,30 @@ I am currently pursuing my Bachelor's in Cybersecurity and Information Assurance
 
 <img src="./assets/AdrianCPIC.png" alt="Profile Picture" width="200"/>
 
+## Certifications
+
+- **CompTIA A+** - January 2024
+- **CompTIA Network+** - April 2024
+- **CompTIA Security+** - July 2024
+- **ITIL** - September 2024
+
 ---
-## Projects
+
+## Skills & Tools
+
+| Skill           | Level        | 
+|-----------------|--------------|
+| Linux/Mac/Windows | Advanced     | 
+| Microsoft 365 Suite/Teams | Advanced  |
+| Cisco Webex       | Advanced      | 
+
+---
 
 
-### SIEM Project on Microsoft Azure
+## <span style="font-size: 2em;">Projects</span>
+
+
+## <span style="font-size: 1.5em;">SIEM Project on Microsoft Azure</span>
 
 I created a Security Information and Event Management (SIEM) system using Microsoft Azure. The project involved setting up a Virtual Machine (VM) with an open RDP port and using **Microsoft Sentinel** to monitor and detect successful RDP sign-ins. This setup allows for the continuous management of events to identify potential security risks related to Remote Desktop Protocol.
 
@@ -50,7 +69,7 @@ I used Microsoft Sentinel to track event logs and detect successful RDP sign-ins
 
 ![Step 4](./assets/Step4.png)
 
-### Random Workout Generator
+## <span style="font-size: 1.5em;">Random Workout Generator</span>
 A Python project that generates random workouts to help you mix up your exercise routine. I developed this as part of my final for my Introduction to Python course.
 
 [View Project](https://github.com/A-r0d/random-workout-generator)
@@ -62,25 +81,6 @@ A Python project that generates random workouts to help you mix up your exercise
  Sample Workout Output: 
  
 ![Sample Workout Output](./assets/WorkoutGen1.png)
-
----
-
-## Certifications
-
-- **CompTIA A+** - January 2024
-- **CompTIA Network+** - April 2024
-- **CompTIA Security+** - July 2024
-- **ITIL** - September 2024
-
----
-
-## Skills & Tools
-
-| Skill           | Level        | 
-|-----------------|--------------|
-| Linux/Mac/Windows | Advanced     | 
-| Microsoft 365 Suite/Teams | Advanced  |
-| Cisco Webex       | Advanced      | 
 
 ---
 
