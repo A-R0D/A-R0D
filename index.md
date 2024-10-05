@@ -3,7 +3,7 @@ layout: default
 title: Adrian Rodriguez - Aspiring Cybersecurity Professional
 ---
 
-# <span style="font-size: 1.5em;">Adrian Rodriguez - Aspiring Cybersecurity Professional</span>
+# <span style="font-size: 1.25em;">Adrian Rodriguez - Aspiring Cybersecurity Professional</span>
 
 Welcome to my GitHub Page! I am passionate about Cybersecurity and Information Technology. Explore my projects, certifications, and resources below.
 
