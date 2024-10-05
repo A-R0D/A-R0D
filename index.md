@@ -31,14 +31,22 @@ I created a Security Information and Event Management (SIEM) system using Micros
 - Automated alerts for suspicious login attempts via RDP.
 
 **How It Works**:
-I used Microsoft Sentinel to track event logs and detect successful RDP sign-ins by creating a custom detection string. Below is an example of the detection rule used:
+I used Microsoft Sentinel to track event logs and detect successful RDP sign-ins by creating a custom detection string. 
 [View Project](https://github.com/your-username/network-monitoring)
 
-![Step 1](./assets/Step1.png)
+**Rule creation**:
 
-![Step 2](./assets/Step2.png)
+![Step 1](./assets/Step2.png)
+
+**Open RDP Port**:
+
+![Step 2](./assets/Step1.png)
+
+**Incident Detection for Successful Login**:
 
 ![Step 3](./assets/Step3.png)
+
+**Monitoring the Incident**:
 
 ![Step 4](./assets/Step4.png)
 
