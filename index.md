@@ -51,7 +51,6 @@ I created a Security Information and Event Management (SIEM) system using Micros
 
 **How It Works**:
 I used Microsoft Sentinel to track event logs and detect successful RDP sign-ins by creating a custom detection string. 
-[View Project](https://github.com/your-username/network-monitoring)
 
 **Rule creation**:
 
